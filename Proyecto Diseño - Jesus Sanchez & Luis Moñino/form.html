@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!-- Meta tags-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Formulario">
+    <meta name="author" content="Jesús Sánchez - Luis Moñino">
+    <meta name="keywords" content="Formulario">
+
+    <!-- Title Page-->
+    <title>Formulario</title>
+
+    <!-- Iconos CSS-->
+    <link href="./css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
+
+    <!-- Fuente-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+
+    <!-- Bootstrap CSS-->
+    <link href="css/select2.min.css" rel="stylesheet" media="all">
+
+    <!-- Local CSS-->
+    <link href="css/main.css" rel="stylesheet" media="all">
+</head>
+
+<body>
+    <div class="page-wrapper bg p-t-45 p-b-50">
+        <div class="wrapper wrapper--w790">
+            <div class="card card-5">
+                <div class="card-heading">
+                    <h2 class="titulo">Formulario de Actividades Extraescolares</h2>
+                </div>
+                <div class="card-body">
+                    <form method="POST">
+                        <div class="form-row m-b-55">
+                            <div class="name">Nombre del Alumno</div>
+                            <div class="value">
+                                <div class="row row-space">
+                                    <div class="col-2">
+                                        <div class="input-group-desc">
+                                            <input class="input--style-5" type="text" name="nombre">
+                                            <label class="label--desc">Nombre</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-2">
+                                        <div class="input-group-desc">
+                                            <input class="input--style-5" type="text" name="apellidos">
+                                            <label class="label--desc">Apellidos</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="name">Curso</div>
+                            <div class="value">
+                                <div class="input-group">
+                                    <input class="input--style-5" type="text" name="curso">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="name">Email</div>
+                            <div class="value">
+                                <div class="input-group">
+                                    <input class="input--style-5" type="email" name="email">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row m-b-55">
+                            <div class="name">Teléfono</div>
+                            <div class="value">
+                                <div class="row row-refine">
+                                    <div class="col-9">
+                                        <div class="input-group-desc">
+                                            <input class="input--style-5" type="text" name="telefono">
+                                            <label class="label--desc">Numero de Teléfono</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="name">Actividad Extraescolar</div>
+                            <div class="value">
+                                <div class="input-group">
+                                    <div class="rs-select2 js-select-simple select--no-search">
+                                        <select name="subject">
+                                            <option disabled="disabled" selected="selected">Escoja una</option>
+                                            <option>Fútbol</option>
+                                            <option>Baloncesto</option>
+                                            <option>Tenis de Mesa</option>
+                                            <option>Informática</option>
+                                            <option>Música</option>
+                                            <option>Ajedrez</option>
+                                            <option>Baile</option>
+                                        </select>
+                                        <div class="select-dropdown"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row p-t-20">
+                            <label class="label label--block">¿Su hijo esta matriculado en nuestro centro?</label>
+                            <div class="p-t-15">
+                                <label class="radio-container m-r-55">Sí
+                                    <input type="radio" checked="checked" name="opcion">
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="radio-container">No
+                                    <input type="radio" name="opcion">
+                                    <span class="checkmark"></span>
+                                </label>
+                            </div>
+                        </div>
+                        <div>
+                            <button class="btn btn--radius btn--red" type="submit">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Jquery JS-->
+    <script src="js/jquery.min.js"></script>
+    <!-- Vendor JS-->
+    <script src="js/select2.min.js"></script>
+    <!-- Main JS-->
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
