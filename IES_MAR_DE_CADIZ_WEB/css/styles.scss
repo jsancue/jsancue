@@ -65,6 +65,31 @@ section {
   margin-bottom: 3rem;
   @include textoTitulo(3.5rem);
 }
+
+.link-cabecera {
+  text-align: center;
+  background: url(../images/cabecera.jpg);
+  background-size: cover;
+  background-position: center;
+
+  h3 {
+    @include textoTitulo(4rem);
+  }
+
+  p {
+    @include textoGraph(2rem);
+
+    a {
+      color: $verde;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+//AUDIO PLAYER
 .contenedor-audio {
   display: flex;
   justify-content: center;
@@ -441,6 +466,147 @@ section {
 
       p {
         @include textoGraph(1.25rem);
+      }
+    }
+  }
+}
+
+//CONTACTO
+.contacto {
+  .contenedor-iconos {
+    margin-bottom: 3rem;
+    @include grid(25rem);
+
+    .iconos {
+      text-align: center;
+      padding: 3rem 2rem;
+      border: $borde;
+      background: $verde-light;
+
+      i {
+        height: 6rem;
+        width: 6rem;
+        line-height: 6rem;
+        font-size: 2rem;
+        border-radius: 50%;
+        margin-bottom: 0.5rem;
+        color: $blanco;
+        background: $verde;
+      }
+
+      h3 {
+        @include textoTitulo(2rem);
+        padding: 0.5rem 0;
+      }
+
+      p {
+        @include textoGraph(1.5rem);
+      }
+    }
+  }
+
+  .fila {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+
+    .imagen {
+      flex: 1 1 40rem;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    form {
+      flex: 1 1 40rem;
+      border: $borde;
+      padding: 2rem;
+
+      h3 {
+        @include textoTitulo(2.5rem);
+        padding-bottom: 1rem;
+      }
+
+      .caja {
+        width: 100%;
+        padding: 1.2rem 1.4rem;
+        border: $borde;
+        font-size: 1.6rem;
+        margin: 0.7rem 0;
+
+        &:focus {
+          background: $verde;
+          color: $blanco;
+
+          &::placeholder {
+            color: $blanco-light;
+          }
+        }
+      }
+
+      textarea {
+        height: 15rem;
+        resize: none;
+      }
+    }
+  }
+}
+
+.faq {
+  .contenedor-acordeones {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    align-items: flex-start;
+
+    .acordeon {
+      flex: 1 1 40rem;
+      border: $borde;
+
+      &.activo {
+        .header-acordeon {
+          background: $verde;
+
+          h3 {
+            color: $blanco;
+          }
+
+          i {
+            color: $blanco;
+            transform: rotate(180deg);
+          }
+        }
+
+        .contenido-acordeon {
+          display: block;
+        }
+      }
+
+      .header-acordeon {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1rem;
+        cursor: pointer;
+        padding: 1.5rem;
+
+        h3 {
+          @include textoTitulo(2rem);
+        }
+
+        i {
+          font-size: 2rem;
+          color: $verde;
+        }
+      }
+
+      .contenido-acordeon {
+        padding: 1.5rem;
+        @include textoGraph(1.5rem);
+        border-top: $borde;
+        display: none;
       }
     }
   }

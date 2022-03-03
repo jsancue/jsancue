@@ -41,6 +41,33 @@ section {
   color: #444;
 }
 
+.link-cabecera {
+  text-align: center;
+  background: url(../images/cabecera.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.link-cabecera h3 {
+  font-size: 4rem;
+  text-transform: capitalize;
+  color: #444;
+}
+
+.link-cabecera p {
+  font-size: 2rem;
+  line-height: 2;
+  color: #777;
+}
+
+.link-cabecera p a {
+  color: #0eb582;
+}
+
+.link-cabecera p a:hover {
+  text-decoration: underline;
+}
+
 .contenedor-audio {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -504,6 +531,189 @@ section {
   font-size: 1.25rem;
   line-height: 2;
   color: #777;
+}
+
+.contacto .contenedor-iconos {
+  margin-bottom: 3rem;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(25rem, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  gap: 2rem;
+}
+
+.contacto .contenedor-iconos .iconos {
+  text-align: center;
+  padding: 3rem 2rem;
+  border: 0.1rem solid #0eb582;
+  background: #f0fdfa;
+}
+
+.contacto .contenedor-iconos .iconos i {
+  height: 6rem;
+  width: 6rem;
+  line-height: 6rem;
+  font-size: 2rem;
+  border-radius: 50%;
+  margin-bottom: 0.5rem;
+  color: #fff;
+  background: #0eb582;
+}
+
+.contacto .contenedor-iconos .iconos h3 {
+  font-size: 2rem;
+  text-transform: capitalize;
+  color: #444;
+  padding: 0.5rem 0;
+}
+
+.contacto .contenedor-iconos .iconos p {
+  font-size: 1.5rem;
+  line-height: 2;
+  color: #777;
+}
+
+.contacto .fila {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.contacto .fila .imagen {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 40rem;
+          flex: 1 1 40rem;
+}
+
+.contacto .fila .imagen img {
+  width: 100%;
+}
+
+.contacto .fila form {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 40rem;
+          flex: 1 1 40rem;
+  border: 0.1rem solid #0eb582;
+  padding: 2rem;
+}
+
+.contacto .fila form h3 {
+  font-size: 2.5rem;
+  text-transform: capitalize;
+  color: #444;
+  padding-bottom: 1rem;
+}
+
+.contacto .fila form .caja {
+  width: 100%;
+  padding: 1.2rem 1.4rem;
+  border: 0.1rem solid #0eb582;
+  font-size: 1.6rem;
+  margin: 0.7rem 0;
+}
+
+.contacto .fila form .caja:focus {
+  background: #0eb582;
+  color: #fff;
+}
+
+.contacto .fila form .caja:focus::-webkit-input-placeholder {
+  color: #eee;
+}
+
+.contacto .fila form .caja:focus:-ms-input-placeholder {
+  color: #eee;
+}
+
+.contacto .fila form .caja:focus::-ms-input-placeholder {
+  color: #eee;
+}
+
+.contacto .fila form .caja:focus::placeholder {
+  color: #eee;
+}
+
+.contacto .fila form textarea {
+  height: 15rem;
+  resize: none;
+}
+
+.faq .contenedor-acordeones {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 2rem;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.faq .contenedor-acordeones .acordeon {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 40rem;
+          flex: 1 1 40rem;
+  border: 0.1rem solid #0eb582;
+}
+
+.faq .contenedor-acordeones .acordeon.activo .header-acordeon {
+  background: #0eb582;
+}
+
+.faq .contenedor-acordeones .acordeon.activo .header-acordeon h3 {
+  color: #fff;
+}
+
+.faq .contenedor-acordeones .acordeon.activo .header-acordeon i {
+  color: #fff;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.faq .contenedor-acordeones .acordeon.activo .contenido-acordeon {
+  display: block;
+}
+
+.faq .contenedor-acordeones .acordeon .header-acordeon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 1rem;
+  cursor: pointer;
+  padding: 1.5rem;
+}
+
+.faq .contenedor-acordeones .acordeon .header-acordeon h3 {
+  font-size: 2rem;
+  text-transform: capitalize;
+  color: #444;
+}
+
+.faq .contenedor-acordeones .acordeon .header-acordeon i {
+  font-size: 2rem;
+  color: #0eb582;
+}
+
+.faq .contenedor-acordeones .acordeon .contenido-acordeon {
+  padding: 1.5rem;
+  font-size: 1.5rem;
+  line-height: 2;
+  color: #777;
+  border-top: 0.1rem solid #0eb582;
+  display: none;
 }
 
 .footer {

@@ -4,7 +4,9 @@ let btnLogin = document.querySelector('.formularios .login-btn');
 let formularios = document.querySelector('.formularios');
 let formLogin = document.querySelector('.formularios .login-form');
 let formRegister = document.querySelector('.formularios .register-form');
+let acordeon = document.querySelectorAll('.faq .contenedor-acordeones .acordeon');
 
+//Formualarios
 document.querySelector('#menu-btn').onclick = () =>{
     navbar.classList.add('activo');
 };
@@ -34,6 +36,15 @@ btnLogin.onclick = () =>{
     formLogin.classList.add('activo');
     formRegister.classList.remove('activo');
 };
+
+//Acordeones
+acordeon.forEach(acor =>{
+  acor.onclick = () =>{
+    acordeon.forEach(deon => deon.classList.remove('activo'));
+    acor.classList.toggle('activo');
+  };
+
+});
 
 //SWIPER
 var swiper = new Swiper(".inicio-slider", {
