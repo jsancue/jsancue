@@ -533,6 +533,81 @@ section {
   color: #777;
 }
 
+.about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 3rem;
+}
+
+.about .imagen {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 40rem;
+          flex: 1 1 40rem;
+}
+
+.about .imagen img {
+  width: 100%;
+}
+
+.about .contenido {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 40rem;
+          flex: 1 1 40rem;
+}
+
+.about .contenido .titulo-about {
+  font-size: 3rem;
+  text-transform: capitalize;
+  color: #444;
+}
+
+.about .contenido p {
+  font-size: 1.5rem;
+  line-height: 2;
+  color: #777;
+  padding: 1rem 0;
+}
+
+.about .contenido .contenedor-iconos {
+  margin-top: 1rem;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(16rem, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+  gap: 2rem;
+}
+
+.about .contenido .contenedor-iconos .iconos {
+  text-align: center;
+  border: 0.1rem solid #0eb582;
+  background: #f0fdfa;
+  padding: 3rem 2rem;
+}
+
+.about .contenido .contenedor-iconos .iconos img {
+  height: 5rem;
+  margin-bottom: 0.5rem;
+}
+
+.about .contenido .contenedor-iconos .iconos h3 {
+  font-size: 2rem;
+  text-transform: capitalize;
+  color: #444;
+  padding: 0.5rem 0;
+}
+
+.about .contenido .contenedor-iconos .iconos span {
+  font-size: 1.5rem;
+  line-height: 2;
+  color: #777;
+}
+
 .contacto .contenedor-iconos {
   margin-bottom: 3rem;
   display: -ms-grid;
@@ -716,6 +791,88 @@ section {
   display: none;
 }
 
+.cursos .caja-contenedora {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(45rem, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(45rem, 1fr));
+  gap: 2rem;
+}
+
+.cursos .caja-contenedora .caja:hover .imagen img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.cursos .caja-contenedora .caja .imagen {
+  height: 25rem;
+  overflow: hidden;
+  position: relative;
+}
+
+.cursos .caja-contenedora .caja .imagen img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.cursos .caja-contenedora .caja .imagen h3 {
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  color: #444;
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  padding: 0.5rem 1.5rem;
+  background: #fff;
+}
+
+.cursos .caja-contenedora .caja .contenido {
+  padding: 2rem;
+  text-align: center;
+  border: 0.1rem solid #0eb582;
+}
+
+.cursos .caja-contenedora .caja .contenido h3 {
+  font-size: 2rem;
+  text-transform: capitalize;
+  color: #444;
+}
+
+.cursos .caja-contenedora .caja .contenido p {
+  padding: 1rem 0;
+  font-size: 1.6rem;
+  line-height: 2;
+  color: #777;
+}
+
+.cursos .caja-contenedora .caja .contenido .iconos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 2rem;
+  padding-top: 2rem;
+  border-top: 0.1rem solid #0eb582;
+}
+
+.cursos .caja-contenedora .caja .contenido .iconos span {
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  color: #444;
+}
+
+.cursos .caja-contenedora .caja .contenido .iconos span i {
+  color: #0eb582;
+  padding-right: 0.5rem;
+}
+
 .footer {
   background: #f0fdfa;
 }
@@ -796,6 +953,10 @@ section {
   border-top: 0.1rem solid #0eb582;
 }
 
+.footer .derechos img {
+  margin: 0 5rem;
+}
+
 @media (max-width: 1200px) {
   .header {
     padding: 2rem 5%;
@@ -865,6 +1026,9 @@ section {
   }
   .cabecera {
     font-size: 3rem;
+  }
+  .about .contenido .titulo-about {
+    font-size: 4rem;
   }
 }
 /*# sourceMappingURL=styles.css.map */

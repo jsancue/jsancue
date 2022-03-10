@@ -59,7 +59,7 @@ var swiper = new Swiper(".inicio-slider", {
 //AUDIO-PLAYER
 const audioPlayer = document.querySelector(".audio-player");
 const audio = new Audio(
-  "https://ia800905.us.archive.org/19/items/FREE_background_music_dhalius/backsound.mp3"
+  "../audio/Himno.mp3"
 );
 
 console.dir(audio);

@@ -470,6 +470,60 @@ section {
     }
   }
 }
+//ABOUT
+.about {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 3rem;
+
+  .imagen {
+    flex: 1 1 40rem;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .contenido {
+    flex: 1 1 40rem;
+
+    .titulo-about {
+      @include textoTitulo(3rem);
+    }
+
+    p {
+      @include textoGraph(1.5rem);
+      padding: 1rem 0;
+    }
+
+    .contenedor-iconos {
+      margin-top: 1rem;
+      @include grid(16rem);
+
+      .iconos {
+        text-align: center;
+        border: $borde;
+        background: $verde-light;
+        padding: 3rem 2rem;
+
+        img {
+          height: 5rem;
+          margin-bottom: 0.5rem;
+        }
+
+        h3 {
+          @include textoTitulo(2rem);
+          padding: 0.5rem 0;
+        }
+
+        span {
+          @include textoGraph(1.5rem);
+        }
+      }
+    }
+  }
+}
 
 //CONTACTO
 .contacto {
@@ -612,6 +666,73 @@ section {
   }
 }
 
+//CURSOS
+.cursos {
+  .caja-contenedora {
+    @include grid(45rem);
+
+    .caja {
+      &:hover .imagen img {
+        transform: scale(1.1);
+      }
+
+      .imagen {
+        height: 25rem;
+        overflow: hidden;
+        position: relative;
+
+        img {
+          height: 100%;
+          width: 100%;
+          object-fit: cover;
+        }
+
+        h3 {
+          @include textoTitulo(1.5rem);
+          position: absolute;
+          top: 1rem;
+          left: 1rem;
+          padding: 0.5rem 1.5rem;
+          background: $blanco;
+        }
+      }
+
+      .contenido {
+        padding: 2rem;
+        text-align: center;
+        border: $borde;
+
+        h3 {
+          @include textoTitulo(2rem);
+        }
+
+        p {
+          padding: 1rem 0;
+          @include textoGraph(1.6rem);
+        }
+
+        .iconos {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          margin-top: 2rem;
+          padding-top: 2rem;
+          border-top: $borde;
+
+          span {
+            @include textoTitulo(1.5rem);
+
+            i {
+              color: $verde;
+              padding-right: 0.5rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
 //Footer
 .footer {
   background: $verde-light;
@@ -679,6 +800,10 @@ section {
     padding-top: 3rem;
     @include textoTitulo(2rem);
     border-top: $borde;
+
+    img {
+      margin: 0 5rem;
+    }
   }
 }
 
@@ -755,5 +880,9 @@ section {
 
   .cabecera {
     font-size: 3rem;
+  }
+
+  .about .contenido .titulo-about {
+    font-size: 4rem;
   }
 }
