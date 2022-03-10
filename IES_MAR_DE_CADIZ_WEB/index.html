@@ -3,9 +3,12 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Sobre Nosotros | IES Mar de Cádiz</title>
+        <title>Inicio | IES Mar de Cádiz</title>
         <meta name="description" content="Página Web de Inicio Oficial del IES Mar de Cádiz">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!--audio-player iconos-->
+        <link rel="stylesheet" href="https://icono-49d6.kxcdn.com/icono.min.css">
 
         <!--font awesome-->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
@@ -36,9 +39,13 @@
             </div>
         </header>
 
-        <!--empieza formulario login-->
+        <!--empieza formularios-->
         <div class="formularios">
             <div id="cerrar-form" class="fas fa-times"></div>
+
+            <div class="login-img">
+                <img src="images/Teacher student-cuate.svg" alt="Foto de stock" />
+            </div>
 
             <div class="botones">
                 <span class="btn activo login-btn">Iniciar Sesión</span>
@@ -71,50 +78,114 @@
             </form>
 
         </div>
-        <!--termina formulario login-->
+        <!--termina formularios-->
+
+        <!--empieza el audio-player-->
+        <div class="contenedor-audio">
+          <div class="audio-player">
+            <div class="timeline">
+              <div class="progress"></div>
+            </div>
+            <div class="controls">
+              <div class="play-container">
+                <div class="toggle-play play">
+              </div>
+              </div>
+              <div class="time">
+                <div class="current">0:00</div>
+                <div class="divider">/</div>
+                <div class="length"></div>
+              </div>
+              <div class="name">Reproductor de Audio</div>
+          <!--     credit for icon to https://saeedalipoor.github.io/icono/ -->
+              <div class="volume-container">
+                <div class="volume-button">
+                  <div class="volume icono-volumeMedium"></div>
+                </div>
+                
+                <div class="volume-slider">
+                  <div class="volume-percentage"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--termina el audio-player-->
+
         <!--termina el header-->
 
-        <section class="link-cabecera">
-            <h3>Sobre Nosotros</h3>
-            <p><a href="index.html">Inicio</a> / Sobre Nosotros</p>
-        </section>
+        <!--empieza la seccion inicio-->
+        <section class="inicio">
+            <div class="swiper inicio-slider">
+                <div class="swiper-wrapper">
+                    <!--foto 1-->
+                    <section class="swiper-slide slide" style="background: url(images/entrada.JPG) no-repeat;">
+                        <div class="contenido">
+                            <h3>IES Mar de Cádiz</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident magnam beatae vero modi? Nihil, veniam.</p>
+                            <a href="#" class="btn">Empezar</a>
+                        </div>
+                    </section>
 
-        <!--empieza la seccion about-->
-        <section class="about">
-            <div class="imagen">
-                <img src="./images/about-img.jpg" alt="Dibujo estético" >
+                    <!--foto 2-->
+                    <section class="swiper-slide slide" style="background: url(images/fondo.JPG) no-repeat;">
+                        <div class="contenido">
+                            <h3>IES Mar de Cádiz</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident magnam beatae vero modi? Nihil, veniam.</p>
+                            <a href="#" class="btn">Empezar</a>
+                        </div>
+                    </section>
+
+                    <!--foto 3-->
+                    <section class="swiper-slide slide" style="background: url(images/despacho.JPG) no-repeat;">
+                        <div class="contenido">
+                            <h3>IES Mar de Cádiz</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident magnam beatae vero modi? Nihil, veniam.</p>
+                            <a href="#" class="btn">Empezar</a>
+                        </div>
+                    </section>
+
+                    <!--foto 4-->
+                    <section class="swiper-slide slide" style="background: url(images/biblioteca.JPG) no-repeat;">
+                        <div class="contenido">
+                            <h3>IES Mar de Cádiz</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident magnam beatae vero modi? Nihil, veniam.</p>
+                            <a href="#" class="btn">Empezar</a>
+                        </div>
+                    </section>
+                </div>
+                <div class="swiper-pagination"></div>
             </div>
+        </section>
+        <!--termina la seccion inicio-->
 
-            <div class="contenido">
-                <h3 class="titulo-about">Saludos de la Directora</h3>
-                <p>Me complace daros la bienvenida a la página web del IES Mar de Cádiz de El Puerto de Santa María en nuestra querida bahía de Cádiz y agradezco, sinceramente, en nombre de toda la comunidad educativa del Instituto, vuestro interés en visitarnos. Queremos que esta página sea una gran puerta de intercambio de información y, al propio tiempo, un instrumento de comunicación en el sentido de puesta en común de ideas, proyectos, iniciativas y, en definitiva, todo lo que enriquezca la labor educativa del centro. Isabel Moncosí Gómez.</p>
+        <!--empieza la seccion apps-->
+        <section class="apps">
+            <h1 class="cabecera">
+                Aplicaciones Externas
+            </h1>
 
-                <div class="contenedor-iconos">
-                    <div class="iconos">
-                        <img src="./images/about-icon-1.png" alt="Icono de un libro">
-                        <h3>15+</h3>
-                        <span>Cursos</span>
-                    </div>
+            <div class="apps-container">
+                <div class="caja">
+                    <a href="https://educacionadistancia.juntadeandalucia.es/centros/login/"><img src="images/Moodle-Logo-RGB.svg" alt="Logo de Moodle" /></a>
+                    <a href="https://educacionadistancia.juntadeandalucia.es/centros/login/"><h3>Moodle</h3></a>
+                    <p>Moodle es una plataforma de aprendizaje diseñada para proporcionar un sistema integrado para crear ambientes de aprendizaje personalizados.</p>
+                </div>
 
-                    <div class="iconos">
-                        <img src="./images/about-icon-3.png" alt="Dibujo de un premio">
-                        <h3>10+</h3>
-                        <span>Premios</span>
-                    </div>
+                <div class="caja">
+                    <a href="https://seneca.juntadeandalucia.es/seneca/jsp/portal/"><img src="images/seneca.svg" alt="Logo de Séneca" /></a>
+                    <h3>Séneca</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut, asperiores?</p>
+                </div>
 
-                    <div class="iconos">
-                        <img src="./images/about-icon-2.png" alt="Dibujo de un estudiante">
-                        <h3>100+</h3>
-                        <span>Estudiantes</span>
-                    </div>
+                <div class="caja">
+                    <img src="images/logo-ampa.png" alt="Logo del Ampa" style="height: 50%;"/>
+                    <h3>Ampa</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, tempore.</p>
                 </div>
             </div>
         </section>
-        <!--termina la seccion about-->
-
-        <!--empieza la seccion profesores-->
-        
-        <!--termina la seccion profesores-->
+        <!--termina la seccion apps-->
 
         <!--empieza el footer-->
         <section class="footer">
@@ -145,7 +216,7 @@
                 <div class="caja">
                     <h3>Enlaces Útiles</h3>
                     <a href="#" class="link">Centro de Ayuda</a>
-                    <a href="contacto.html#faq" class="link">FAQ</a>
+                    <a href="/contacto.html#faq" class="link">FAQ</a>
                     <a href="#" class="link">Enviar Feedback</a>
                     <a href="#" class="link">Politica de Privacidad</a>
                     <a href="#" class="link">Términos de Uso</a>
@@ -170,7 +241,7 @@
 
         <!--swiper js-->
         <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
-        
+
         <!--javascript-->
         <script src="js/script.js"></script>
     </body>
