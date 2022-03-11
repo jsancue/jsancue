@@ -463,6 +463,17 @@ section {
   background-position: center !important;
 }
 
+.inicio .slide video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 .inicio .contenido {
   width: 50rem;
 }
@@ -515,8 +526,8 @@ section {
 }
 
 .apps .apps-container .caja img {
-  height: 10rem;
-  width: 20rem;
+  width: 50%;
+  height: 50%;
   margin-bottom: 0.7rem;
 }
 
