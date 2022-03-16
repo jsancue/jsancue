@@ -69,7 +69,7 @@
 <h2 align="center">Repositorios</h2>
 
 <p width="100%" align="center">
-  <a align="left" href="https://github.com/jsancue/ies-mar-de-cadiz-web" title="Web IES Mar de Cádiz"><img align="left" height="115" src="https://github-readme-stats.vercel.app/api/pin/?username=jsancuea&repo=ies-mar-de-cadiz-web&theme=gotham"></a>
+  <a align="left" href="https://github.com/jsancue/ies-mar-de-cadiz-web" title="Web IES Mar de Cádiz"><img align="left" height="115" src="https://github-readme-stats.vercel.app/api/pin/?username=jsancue&repo=ies-mar-de-cadiz-web&theme=gotham"></a>
 </p>
 <br><br>
 
