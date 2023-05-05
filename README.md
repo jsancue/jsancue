@@ -12,7 +12,7 @@
   <br>
   🔬 Actualmente estoy buscando trabajo
   <br>
-  📚 Estoy aprendiendo ReactJS
+  📚 Resolviendo maquinas en TryHackMe
   <br>
   📫 Como contáctarme: <a href="mailto: jsancue@proton.me">jsancue@proton.me</a>
 </p>
