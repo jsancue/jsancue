@@ -3,18 +3,18 @@
 </h5>
 <br>
 <p align="center">
-  Hola, soy Jesús Sánchez, Técnico Superior en Desarrollo de Aplicaciones Web
+  Hola, soy Jesús Sánchez, Técnico Superior en Desarrollo de Aplicaciones Web & Especializado en Ciberseguridad
   <br>
   <br>
-  🎓 Me titulé en el IES Mar de Cádiz dentro de la Formación Profesional de Grado Superior de DAW
+  🎓 Me titulé en el IES Mar de Cádiz dentro de la Formación Profesional de Grado Superior de DAW, posteriormente seguí con mi formación y realicé el CETI de Ciberseguridad
   <br>
-  💻 Me apasiona el diseño de las páginas webs y me gustaría aprender, y avanzar, dentro del mundo del Frontend
+  💻 Me apasionan las nuevas tecnologías, la programación de las páginas webs y sobre todo la seguridad y proteccion de nuestros datos en internet.
   <br>
   🔬 Actualmente estoy buscando trabajo
   <br>
   📚 Estoy aprendiendo ReactJS
   <br>
-  📫 Como contáctarme: <a href="mailto: jsancue2103@gmail.com">jsancue2103@gmail.com</a>
+  📫 Como contáctarme: <a href="mailto: jsancue@proton.me">jsancue@proton.me</a>
 </p>
 
 <hr>
