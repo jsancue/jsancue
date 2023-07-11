@@ -80,6 +80,3 @@
   <a align="left" href="https://github.com/jsancue/Docker-GitWeb" title="GitWeb Dockerfile"><img align="left" height="115" src="https://github-readme-stats.vercel.app/api/pin/?username=jsancue&repo=Docker-GitWeb&theme=gotham"></a>
 </p>
 
-<p align = "center">
-    ⭐️ From <a href="https://github.com/jsancue/">jsancue</a>
-</p>
