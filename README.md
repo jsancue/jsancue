@@ -1,82 +1,97 @@
-<h3 align="center">Hola, soy Jesús 👋</h3>
-<h5 align="center">
-</h5>
-<br>
-<p align="center">
-  Hola, soy Jesús Sánchez, Técnico Superior en Desarrollo de Aplicaciones Web & Especializado en Ciberseguridad
-  <br>
-  <br>
-  🎓 Me titulé en el IES Mar de Cádiz dentro de la Formación Profesional de Grado Superior de DAW, posteriormente seguí con mi formación y realicé el CETI de Ciberseguridad
-  <br>
-  💻 Me apasionan las nuevas tecnologías, la programación de las páginas webs y sobre todo la seguridad y proteccion de nuestros datos en internet.
-  <br>
-  🔬 Actualmente estoy buscando trabajo
-  <br>
-  📚 Resolviendo maquinas en TryHackMe
-  <br>
-  📫 Como contáctarme: <a href="mailto: jsancue@proton.me">jsancue@proton.me</a>
-</p>
+<!-- Header -->
+<div align="center">
 
-<hr>
+```
+ ██╗███████╗███████╗██╗   ██╗███████╗
+ ██║██╔════╝██╔════╝██║   ██║██╔════╝
+ ██║█████╗  ███████╗██║   ██║███████╗
+ ██║██╔══╝  ╚════██║██║   ██║╚════██║
+ ██║███████╗███████║╚██████╔╝███████║
+ ╚═╝╚══════╝╚══════╝ ╚═════╝ ╚══════╝
+```
 
-<h2 align="center">Lenguajes & Frameworks & Herramientas & Habilidades</h2>
+### Jesús Sánchez Cuevas
+**Backend Developer · Cybersecurity · Blue Team**
 
-<p align="center">
-  <code><img title="Javascript" height="25" src="https://github.com/jsancue/jsancue/blob/main/images/javascript.svg"></code>
-  <code><img title="HTML5" height="25" src="https://github.com/jsancue/jsancue/blob/main/images/html5.svg"></code>
-  <code><img title="CSS" height="25" src="https://github.com/jsancue/jsancue/blob/main/images/css.svg"></code>
-  <code><img title="SASS" height="25" src="https://github.com/jsancue/jsancue/blob/main/images/sass.svg"></code>
-  <code><img title="Java" height="25" src="https://github.com/jsancue/jsancue/blob/main/images/java-original.svg"></code>
-  <code><img title="JSON" height="25" src="https://github.com/jsancue/jsancue/blob/main/images/json.svg"></code>
-  <code><img title="PostgreSQL" height="25" src="https://github.com/jsancue/jsancue/blob/main/images/postgresql.svg"></code>
-  <code><img title="MySQL" height="25" src="https://github.com/jsancue/jsancue/blob/main/images/mysql.svg"></code>
-  <code><img title="MongoDB" height="25" src="https://github.com/jsancue/jsancue/blob/main/images/mongodb.png"></code>
-  <code><img title="Postman" height="25" src="https://github.com/jsancue/jsancue/blob/main/images/postman.svg"></code>
-  <code><img title="Docker" height="25" src="https://github.com/jsancue/jsancue/blob/main/images/docker.svg"></code>
-  <code><img title="Docker-Compose" height="25" src="https://github.com/jsancue/jsancue/blob/main/images/docker-compose.png"></code>
-</p>
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-jsancue-0A66C2?style=flat-square&logo=linkedin)](https://linkedin.com/in/jsancue)
+[![Email](https://img.shields.io/badge/Email-jsancue@proton.me-8B89CC?style=flat-square&logo=protonmail&logoColor=white)](mailto:jsancue@proton.me)
 
-<hr>
+</div>
 
+---
 
-<h2 align="center">⚡ Estadísticas ⚡</h2>
-<br>
-<p align=center>
-  <div align=center>
-    <a href="https://github.com/denvercoder1/github-readme-streak-stats" title="Go to Source">
-      <img align="left" width=390 src="https://github-readme-streak-stats.herokuapp.com/?user=jsancue&theme=react&border=61dafb&hide_border=true" alt="jsancue" />
-    </a>
-    <a href="https://github.com/anuraghazra/github-readme-stats" title="Go to Source">
-      <img align="right" width=390 src="https://github-readme-stats.vercel.app/api?username=jsancue&show_icons=true&theme=react&border_color=61dafb&hide_border=true" />
-    </a>
-  </div>
-  <br><br><br><br><br><br><br><br><br>
-  <div align=center>
-    <a href="https://github.com/anuraghazra/github-readme-stats">
-      <img width=325 align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jsancue&hide=c%23,powershell,Mathematica,Ruby,Objective-C,Objective-C%2b%2b,Cuda&title_color=61dafb&text_color=ffffff&icon_color=61dafb&bg_color=20232a&langs_count=8&layout=compact&border_color=61dafb&hide_border=true" />
-    </a>
-  </div>
-  <br>
-  <img src="https://activity-graph.herokuapp.com/graph?username=jsancue&theme=react-dark&bg_color=20232a&hide_border=true" width="100%"/>
-</p>
+```java
+public class JesusSanchez {
 
-<hr>
+    String[] roles     = { "Backend Developer", "SOC Analyst (L1)", "Blue Teamer" };
+    String   location  = "Cádiz, España 🇪🇸";
+    String   looking   = "Buscando rol SOC/Blue Team o Backend seguro";
 
-<h2 align="center">Repositorios</h2>
+    String[] stack     = { "Java 23", "Spring Boot", "Spring Security", "JWT",
+                           "PostgreSQL", "Docker", "React", "GitHub Actions" };
 
-<p width="100%" align="center">
-  <a align="left" href="https://github.com/jsancue/ies-mar-de-cadiz-web" title="Web IES Mar de Cádiz"><img align="left" height="115" src="https://github-readme-stats.vercel.app/api/pin/?username=jsancue&repo=ies-mar-de-cadiz-web&theme=gotham"></a>
-</p>
+    String[] sec       = { "Wazuh", "Splunk", "ELK Stack", "Suricata",
+                           "Wireshark", "Nessus", "Burp Suite", "MITRE ATT&CK" };
 
-<p width="100%" align="center">
-  <a align="left" href="https://github.com/jsancue/comprix" title="TFG"><img align="left" height="115" src="https://github-readme-stats.vercel.app/api/pin/?username=jsancue&repo=comprix&theme=gotham"></a>
-</p>
+    String   superpower = "Ver los sistemas desde dentro: cómo se construyen y cómo se rompen.";
+}
+```
 
-<p width="100%" align="center">
-  <a align="left" href="https://github.com/jsancue/jsancue.github.io" title="TFG"><img align="left" height="115" src="https://github-readme-stats.vercel.app/api/pin/?username=jsancue&repo=jsancue.github.io&theme=gotham"></a>
-</p>
+---
 
-<p width="100%" align="center">
-  <a align="left" href="https://github.com/jsancue/Docker-GitWeb" title="GitWeb Dockerfile"><img align="left" height="115" src="https://github-readme-stats.vercel.app/api/pin/?username=jsancue&repo=Docker-GitWeb&theme=gotham"></a>
-</p>
+## ⚙️ Backend & Dev
 
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
+![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=flat-square&logo=springsecurity&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+
+## 🔐 Ciberseguridad
+
+![Wazuh](https://img.shields.io/badge/Wazuh-3AAAFF?style=flat-square&logoColor=white)
+![Splunk](https://img.shields.io/badge/Splunk-000000?style=flat-square&logo=splunk&logoColor=white)
+![ELK Stack](https://img.shields.io/badge/ELK_Stack-005571?style=flat-square&logo=elasticstack&logoColor=white)
+![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=flat-square&logo=wireshark&logoColor=white)
+![Burp Suite](https://img.shields.io/badge/Burp_Suite-FF6633?style=flat-square&logo=burpsuite&logoColor=white)
+![Nessus](https://img.shields.io/badge/Nessus-00C176?style=flat-square&logoColor=white)
+![MITRE ATT&CK](https://img.shields.io/badge/MITRE_ATT%26CK-CC0000?style=flat-square&logoColor=white)
+![Suricata](https://img.shields.io/badge/Suricata-EF7D00?style=flat-square&logoColor=white)
+
+## 🐳 DevOps & Cloud
+
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+
+---
+
+## 🚀 Proyecto destacado
+
+### [Linklytics](https://url-short-react.pages.dev/) — Acortador de URLs seguro
+
+> API REST con autenticación **JWT stateless**, autorización por roles, protección frente a vulnerabilidades OWASP y dashboard de estadísticas en tiempo real.
+
+`Java 23` · `Spring Boot` · `Spring Security` · `PostgreSQL` · `React` · `Docker` · `CI/CD`
+
+---
+
+## 🏅 Certificaciones
+
+- 🔵 **Cisco CCST Cybersecurity** — [Ver credencial](https://www.credly.com/badges/6b3168c1-51ce-4f24-9b52-22782ee08042/public_url)
+- 🔵 **IT Specialist - Cybersecurity** — [Ver credencial](https://www.credly.com/badges/7f8295a3-7ee3-41d6-a79e-d847627c8339/public_url)
+
+---
+
+<div align="center">
+
+*"Entiendo los sistemas desde dentro: cómo se construyen, cómo fallan y cómo se protegen."*
+
+</div>
