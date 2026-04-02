@@ -65,13 +65,27 @@ Busco un rol **SOC L1 / Blue Team** o **Backend con enfoque DevSecOps** donde se
 
 ---
 
-### Proyecto destacado
+### Proyectos
 
 **[Linklytics](https://url-short-react.pages.dev/)** — Acortador de URLs seguro
 
 API REST con autenticación JWT stateless, autorización por roles y protección activa frente a vulnerabilidades OWASP. Dashboard de estadísticas en tiempo real. Desplegado en producción.
 
 `Java 23` · `Spring Boot` · `Spring Security` · `PostgreSQL` · `React` · `Docker` · `GitHub Actions`
+
+---
+
+**[Spring Boot — De Cero a Experto](https://github.com/jsancue)** — Serie de cursos prácticos
+
+Tres módulos progresivos sobre el stack Spring Boot moderno. Cada uno amplía al anterior hasta llegar a una API completamente segura y lista para producción.
+
+| Módulo | Contenido |
+|---|---|
+| Spring Boot Web | API REST · Swagger · Actuator · Validación |
+| Spring Data JPA | Persistencia · Relaciones · Consultas custom |
+| Spring Security | JWT · OAuth2 · Autorización por roles · Testing |
+
+`Java 21` · `Spring Boot 3.5` · `Spring Security` · `JWT` · `OAuth2` · `JPA` · `PostgreSQL` · `Docker`
 
 ---
 
