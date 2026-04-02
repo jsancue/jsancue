@@ -102,9 +102,11 @@ public class JesusSanchez {
 | 🌐 **Spring Boot Web** | API REST · Swagger/OpenAPI · Actuator · Validación · MapStruct |
 | 🗄️ **Spring Data JPA** | Persistencia · Relaciones · Consultas custom · Docker + PostgreSQL |
 | 🔐 **Spring Security** | JWT · OAuth2 · Autorización por roles · Testing de seguridad · H2 |
+| ☁️ **Spring Cloud** | Eureka · API Gateway · Config Server · Circuit Breaker · Load Balancing |
 
 ![Java](https://img.shields.io/badge/Java_21-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot_3.5-6DB33F?style=flat-square&logo=springboot&logoColor=white)
+![Spring Cloud](https://img.shields.io/badge/Spring_Cloud-6DB33F?style=flat-square&logo=spring&logoColor=white)
 ![JWT](https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white)
 ![OAuth2](https://img.shields.io/badge/OAuth2-EB5424?style=flat-square&logo=auth0&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
