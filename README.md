@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a1f2e,100:0f4c75&height=200&section=header&text=Jesús%20Sánchez%20Cuevas&fontSize=42&fontColor=58a6ff&fontAlignY=38&desc=Backend%20Developer%20·%20Cybersecurity%20·%20Blue%20Team&descSize=16&descAlignY=58&descColor=8b949e" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a1f2e,100:0f4c75&height=200&section=header&text=Jesús%20Sánchez%20Cuevas&fontSize=42&fontColor=58a6ff&fontAlignY=38&desc=Backend%20Developer%20·%20Cybersecurity%20·%20DevSecOps&descSize=16&descAlignY=58&descColor=8b949e" />
 
 <br/>
 
